@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian Riggle</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Brian Riggle</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="links.html">My Links</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome</h2>
+        <p>This is my personal website — a place to organize my work, projects, and resources.</p>
+    </section>
+
+    <section class="content">
+        <h3>About This Site</h3>
+        <p>
+            This site is built to be simple, fast, and easy to maintain. It’s hosted using Azure Static Web Apps and updated automatically through GitHub.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Brian Riggle</p>
+    </footer>
+</body>
+</html>
