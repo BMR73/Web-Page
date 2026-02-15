@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Links</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>My Saved Links</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="links.html">My Links</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Organized Bookmarks</h2>
+
+        <!-- Productivity & Cloud -->
+        <h3>Productivity & Cloud</h3>
+        <ul>
+            <li><a href="https://onedrive.live.com/?id=root&cid=1DF3B9E188C5FEDF">OneDrive</a></li>
+            <li><a href="https://copilot.microsoft.com/">Copilot</a></li>
+            <li><a href="https://www.splashid.com/app/">SplashID</a></li>
+            <li><a href="https://www.icloud.com/">iCloud</a></li>
+            <li><a href="https://sites.google.com/view/brianmriggle">Google Sites Published</a></li>
+            <li><a href="https://sites.google.com/d/1Xl75eohY-1TSTK5u-hFaFgk1-i78rOwj/p/1gDjhTrFfMXskc6S_HBqcv_C38qanA18n/edit">Google Sites Editor</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/?hl=en#inbox">Gmail</a></li>
+        </ul>
+
+        <!-- Finance & Accounts -->
+        <h3>Finance & Accounts</h3>
+        <ul>
+            <li><a href="https://www.etrade.wallst.com/Research/Stocks/StockScreener">E*TRADE Screener</a></li>
+            <li><a href="https://accountview.lpl.com/web/login">LPL Account View</a></li>
+            <li><a href="https://www.va.gov/education/verify-school-enrollment/mgib-enrollments/">VA MGIB Enrollment Verification</a></li>
+        </ul>
+
+        <!-- AI Tools & Generators -->
+        <h3>AI Tools & Generators</h3>
+        <ul>
+            <li><a href="https://elevenlabs.io/app/home">ElevenLabs</a></li>
+            <li><a href="https://typecast.ai/">Typecast</a></li>
+            <li><a href="https://app.synthesia.io/#/?videosType=MyRecentVideos">Synthesia</a></li>
+            <li><a href="https://app.heygen.com/get-started">HeyGen</a></li>
+            <li><a href="https://creator.nightcafe.studio/">NightCafe</a></li>
+            <li><a href="https://murf.ai/studio/project/2/P017662473523571NT">Murf</a></li>
+            <li><a href="https://orpheustts.net/">Orpheus TTS</a></li>
+            <li><a href="https://www.mayaresearch.ai/studio/text-to-speech">Maya TTS</a></li>
+            <li><a href="https://make.theleap.co/manage/products">Make The Leap</a></li>
+            <li><a href="https://www.coursera.org/specializations/prompting-essentials-google">Google Prompting Essentials</a></li>
+        </ul>
+
+        <!-- ASU / Academic Resources -->
+        <h3>ASU / Academic Resources</h3>
+        <ul>
+            <li><a href="https://webapp4.asu.edu/myasu/">My ASU</a></li>
+            <li><a href="https://tutorials.lib.asu.edu/tutorials/rise/citing-your-sources/index.html#/">Citing Your Sources</a></li>
+            <li><a href="https://libguides.asu.edu/c.php?g=1311696&p=9700102">Citing Generative AI Models</a></li>
+            <li><a href="https://registrar.asu.edu/academic-calendar">ASU Academic Calendar</a></li>
+            <li><a href="https://www.kaggle.com/code/cuecacuela/2025-the-ultimate-markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
+            <li><a href="https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_the_basics.html">Purdue OWL – In‑Text Citations</a></li>
+            <li><a href="https://www.mckinsey.com/user-registration/manage-account/edit-subscriptions">McKinsey Subscriptions</a></li>
+        </ul>
+
+        <!-- Developer & Technical -->
+        <h3>Developer & Technical</h3>
+        <ul>
+            <li><a href="https://github.com/kesslernity/awesome-microsoft-copilot-prompts">Copilot Prompt Library</a></li>
+        </ul>
+
+        <!-- Media & Entertainment -->
+        <h3>Media & Entertainment</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="https://www.fanatics.com/?query=arizona%20state">Fanatics – ASU Gear</a></li>
+        </ul>
+
+        <!-- Personal / Miscellaneous -->
+        <h3>Personal / Miscellaneous</h3>
+        <ul>
+            <li><a href="https://www.splashid.com/app/">SplashID</a></li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Brian Riggle</p>
+    </footer>
+</body>
+</html>
