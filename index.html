@@ -24,3 +24,181 @@
 
     <div class="sidebar-content">
       <div class="profile-photo">
+        <img src="images/_W6A5443-Edit-Editskx5.jpg" alt="Brian Riggle headshot" />
+      </div>
+
+      <div class="sidebar-title">AI Senior Leader</div>
+      <div class="sidebar-subtitle">Insight • Integrity • Impact</div>
+
+      <div class="sidebar-name">Brian Riggle</div>
+
+      <div class="sidebar-contact">
+        <div><i class="fa-solid fa-envelope"></i> brianmriggle@hotmail.com</div>
+        <div><i class="fa-solid fa-phone"></i> 580-747-9270</div>
+      </div>
+
+      <div class="sidebar-section-label">Core Competencies</div>
+      <div class="sidebar-competencies">
+        <span>Teamwork</span>
+        <span>Investment Strategy</span>
+        <span>Risk Management</span>
+      </div>
+
+      <div class="sidebar-social">
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- TOP NAVIGATION BAR -->
+  <header class="topnav">
+    <div class="topnav-left">
+      <button class="hamburger" id="hamburgerBtn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <span class="topnav-title">AI Senior Leader</span>
+    </div>
+
+    <nav class="topnav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <!-- MOBILE SLIDE-OUT MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-content">
+      <div class="mobile-profile">
+        <img src="images/_W6A5443-Edit-Editskx5.jpg" alt="Brian Riggle headshot" />
+        <div class="mobile-name">Brian Riggle</div>
+        <div class="mobile-email">brianmriggle@hotmail.com</div>
+        <div class="mobile-phone">580-747-9270</div>
+      </div>
+
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        Results-driven investment professional with a focus on portfolio optimization, risk management,
+        and long-term value creation. Adept at synthesizing complex market data into clear, actionable
+        strategies for institutional and high-net-worth clients.
+      </p>
+
+      <h3>Skills & Expertise</h3>
+      <div class="badge-row">
+        <span class="badge">Equity Research</span>
+        <span class="badge">Fixed Income</span>
+        <span class="badge">Derivatives</span>
+        <span class="badge">Financial Modeling</span>
+        <span class="badge">Client Advisory</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2020 – Present • New York, NY</div>
+          <div class="timeline-role">Vice President, Investment Strategy</div>
+          <div class="timeline-company">Goldman Sachs</div>
+          <p>
+            Leads multi-asset portfolio strategy for institutional clients, integrating macroeconomic
+            research, quantitative models, and client-specific constraints.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2016 – 2020 • New York, NY</div>
+          <div class="timeline-role">Associate, Global Markets</div>
+          <div class="timeline-company">J.P. Morgan</div>
+          <p>
+            Supported trading desks with real-time analytics, scenario modeling, and client presentations.
+            Contributed to tools that improved pricing accuracy and reduced operational risk.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="card">
+      <h2>Education & Certifications</h2>
+
+      <div class="edu-item">
+        <h3>New York University</h3>
+        <div class="edu-meta">B.S. Finance • 2012 – 2016</div>
+        <p>
+          Relevant coursework: Corporate Finance, Investment Analysis, Econometrics, Derivatives,
+          Risk Management.
+        </p>
+      </div>
+
+      <div class="edu-item">
+        <h3>Professional Certifications</h3>
+        <ul>
+          <li>CFA Level II Candidate</li>
+          <li>FINRA Series 7 & 63</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="card">
+      <h2>Key Achievements & Tools</h2>
+
+      <h3>Key Achievements</h3>
+      <ul>
+        <li>Designed a multi-factor equity strategy that outperformed benchmark by 250 bps over 3 years.</li>
+        <li>Co-led risk review that reduced portfolio drawdown by 18% during high-volatility periods.</li>
+        <li>Recognized with “Emerging Leader” award for cross-team collaboration and client impact.</li>
+      </ul>
+
+      <h3>Software Proficiency</h3>
+      <div class="icon-row">
+        <span><i class="fa-brands fa-microsoft"></i> Excel / PowerPoint</span>
+        <span><i class="fa-solid fa-chart-line"></i> Bloomberg</span>
+        <span><i class="fa-solid fa-database"></i> SQL</span>
+        <span><i class="fa-brands fa-python"></i> Python</span>
+        <span><i class="fa-solid fa-square-poll-vertical"></i> Tableau</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © 2026 Brian M Riggle • AI Business Insights
+    </footer>
+
+  </main>
+
+  <!-- JS FOR SIDEBAR + MOBILE MENU -->
+  <script>
+    const sidebar = document.getElementById("sidebar");
+    const collapseBtn = document.getElementById("collapseBtn");
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    collapseBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("collapsed");
+    });
+
+    hamburgerBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("open");
+    });
+  </script>
+
+</body>
+</html>
