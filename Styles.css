@@ -35,3 +35,315 @@ body {
 }
 
 .sidebar-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collapse-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sidebar-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1b263b;
+}
+
+.sidebar.collapsed .profile-photo img {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sidebar-subtitle {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.sidebar-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.sidebar-contact {
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.sidebar-section-label {
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.sidebar-competencies {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 13px;
+}
+
+.sidebar-social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sidebar-social a {
+    color: white;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.sidebar-social a:hover {
+    color: #4cc9f0;
+}
+
+/* COLLAPSED SIDEBAR BEHAVIOR */
+.sidebar.collapsed .sidebar-content > *:not(.profile-photo) {
+    display: none;
+}
+
+/* ---------------------------------------------------------
+   TOP NAVIGATION BAR
+--------------------------------------------------------- */
+.topnav {
+    position: fixed;
+    left: 260px;
+    top: 0;
+    right: 0;
+    height: 60px;
+    background: #1b263b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    transition: left 0.3s ease;
+    z-index: 10;
+}
+
+.sidebar.collapsed ~ .topnav {
+    left: 80px;
+}
+
+.topnav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.topnav-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.topnav-links a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.topnav-links a:hover {
+    color: #4cc9f0;
+}
+
+/* ---------------------------------------------------------
+   MOBILE SLIDE-OUT MENU
+--------------------------------------------------------- */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100vh;
+    background: #0d1b2a;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 20;
+}
+
+.mobile-menu.open {
+    left: 0;
+}
+
+.mobile-menu-content a {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.mobile-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------
+   MAIN CONTENT AREA
+--------------------------------------------------------- */
+.main-content {
+    margin-left: 260px;
+    padding: 100px 40px 40px;
+    width: 100%;
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar.collapsed ~ .main-content {
+    margin-left: 80px;
+}
+
+/* ---------------------------------------------------------
+   CARDS
+--------------------------------------------------------- */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #1b263b;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #415a77;
+}
+
+/* ---------------------------------------------------------
+   BADGES
+--------------------------------------------------------- */
+.badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.badge {
+    background: #e0e7ff;
+    color: #1e3a8a;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------------
+   TIMELINE
+--------------------------------------------------------- */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.timeline-item {
+    border-left: 4px solid #4cc9f0;
+    padding-left: 15px;
+}
+
+.timeline-date {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.timeline-role {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.timeline-company {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+/* ---------------------------------------------------------
+   ICON ROW
+--------------------------------------------------------- */
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon-row span {
+    background: #edf2f4;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------------
+   FOOTER
+--------------------------------------------------------- */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+
+/* ---------------------------------------------------------
+   RESPONSIVE BEHAVIOR
+--------------------------------------------------------- */
+@media (max-width: 900px) {
+    .topnav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        display: none;
+    }
+
+    .topnav {
+        left: 0 !important;
+    }
+
+    .main-content {
+        margin-left: 0 !important;
+        padding: 100px 20px 20px;
+    }
+}
