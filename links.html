@@ -1,94 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Links</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Links | Brian Riggle</title>
+
+  <link rel="stylesheet" href="Styles.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
-    <header>
-        <h1>My Saved Links</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="links.html">My Links</a>
-        </nav>
-    </header>
 
-    <section class="content">
-        <h2>Organized Bookmarks</h2>
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <button class="collapse-btn" id="collapseBtn">
+        <i class="fa-solid fa-angles-left"></i>
+      </button>
+    </div>
 
-        <!-- Productivity & Cloud -->
-        <h3>Productivity & Cloud</h3>
-        <ul>
-            <li><a href="https://onedrive.live.com/?id=root&cid=1DF3B9E188C5FEDF">OneDrive</a></li>
-            <li><a href="https://copilot.microsoft.com/">Copilot</a></li>
-            <li><a href="https://www.splashid.com/app/">SplashID</a></li>
-            <li><a href="https://www.icloud.com/">iCloud</a></li>
-            <li><a href="https://sites.google.com/view/brianmriggle">Google Sites Published</a></li>
-            <li><a href="https://sites.google.com/d/1Xl75eohY-1TSTK5u-hFaFgk1-i78rOwj/p/1gDjhTrFfMXskc6S_HBqcv_C38qanA18n/edit">Google Sites Editor</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/?hl=en#inbox">Gmail</a></li>
-        </ul>
+    <div class="sidebar-content">
+      <div class="profile-photo">
+        <img src="images/Headshot.jpg" alt="Brian Riggle headshot" />
+      </div>
 
-        <!-- Finance & Accounts -->
-        <h3>Finance & Accounts</h3>
-        <ul>
-            <li><a href="https://www.etrade.wallst.com/Research/Stocks/StockScreener">E*TRADE Screener</a></li>
-            <li><a href="https://accountview.lpl.com/web/login">LPL Account View</a></li>
-            <li><a href="https://www.va.gov/education/verify-school-enrollment/mgib-enrollments/">VA MGIB Enrollment Verification</a></li>
-        </ul>
+      <div class="sidebar-title">AI Strategy & Governance Leader</div>
+      <div class="sidebar-subtitle">Insight • Integrity • Impact</div>
 
-        <!-- AI Tools & Generators -->
-        <h3>AI Tools & Generators</h3>
-        <ul>
-            <li><a href="https://elevenlabs.io/app/home">ElevenLabs</a></li>
-            <li><a href="https://typecast.ai/">Typecast</a></li>
-            <li><a href="https://app.synthesia.io/#/?videosType=MyRecentVideos">Synthesia</a></li>
-            <li><a href="https://app.heygen.com/get-started">HeyGen</a></li>
-            <li><a href="https://creator.nightcafe.studio/">NightCafe</a></li>
-            <li><a href="https://murf.ai/studio/project/2/P017662473523571NT">Murf</a></li>
-            <li><a href="https://orpheustts.net/">Orpheus TTS</a></li>
-            <li><a href="https://www.mayaresearch.ai/studio/text-to-speech">Maya TTS</a></li>
-            <li><a href="https://make.theleap.co/manage/products">Make The Leap</a></li>
-            <li><a href="https://www.coursera.org/specializations/prompting-essentials-google">Google Prompting Essentials</a></li>
-        </ul>
+      <div class="sidebar-name">Brian Riggle</div>
 
-        <!-- ASU / Academic Resources -->
-        <h3>ASU / Academic Resources</h3>
-        <ul>
-            <li><a href="https://webapp4.asu.edu/myasu/">My ASU</a></li>
-            <li><a href="https://tutorials.lib.asu.edu/tutorials/rise/citing-your-sources/index.html#/">Citing Your Sources</a></li>
-            <li><a href="https://libguides.asu.edu/c.php?g=1311696&p=9700102">Citing Generative AI Models</a></li>
-            <li><a href="https://registrar.asu.edu/academic-calendar">ASU Academic Calendar</a></li>
-            <li><a href="https://www.kaggle.com/code/cuecacuela/2025-the-ultimate-markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
-            <li><a href="https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_the_basics.html">Purdue OWL – In‑Text Citations</a></li>
-            <li><a href="https://www.mckinsey.com/user-registration/manage-account/edit-subscriptions">McKinsey Subscriptions</a></li>
-        </ul>
+      <div class="sidebar-contact">
+        <div><i class="fa-solid fa-envelope"></i> brianmriggle@hotmail.com</div>
+        <div><i class="fa-solid fa-phone"></i> 580‑747‑9270</div>
+      </div>
 
-        <!-- Developer & Technical -->
-        <h3>Developer & Technical</h3>
-        <ul>
-            <li><a href="https://github.com/kesslernity/awesome-microsoft-copilot-prompts">Copilot Prompt Library</a></li>
-        </ul>
+      <div class="sidebar-section-label">Navigation</div>
+      <div class="sidebar-competencies">
+        <a href="index.html">Home</a>
+        <a href="links.html">Links</a>
+      </div>
+    </div>
+  </aside>
 
-        <!-- Media & Entertainment -->
-        <h3>Media & Entertainment</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/">YouTube</a></li>
-            <li><a href="https://www.fanatics.com/?query=arizona%20state">Fanatics – ASU Gear</a></li>
-        </ul>
+  <!-- TOP NAV -->
+  <header class="topnav">
+    <div class="topnav-left">
+      <button class="hamburger" id="hamburgerBtn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <span class="topnav-title">Links Dashboard</span>
+    </div>
 
-        <!-- Personal / Miscellaneous -->
-        <h3>Personal / Miscellaneous</h3>
-        <ul>
-            <li><a href="https://www.splashid.com/app/">SplashID</a></li>
-        </ul>
+    <nav class="topnav-links">
+      <a href="index.html">Home</a>
+      <a href="#general">General</a>
+      <a href="#favorites">Favorites</a>
+      <a href="#asu">ASU</a>
+      <a href="#ai">AI</a>
+      <a href="#tts">TTS</a>
+    </nav>
+  </header>
 
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-content">
+      <div class="mobile-profile">
+        <img src="images/Headshot.jpg" alt="Brian Riggle headshot" />
+        <div class="mobile-name">Brian Riggle</div>
+        <div class="mobile-email">brianmriggle@hotmail.com</div>
+      </div>
+
+      <a href="index.html">Home</a>
+      <a href="#general">General</a>
+      <a href="#favorites">Favorites</a>
+      <a href="#asu">ASU</a>
+      <a href="#ai">AI</a>
+      <a href="#tts">TTS</a>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- GENERAL -->
+    <section id="general" class="card">
+      <h2>General</h2>
+      <ul class="link-list">
+        <li><a href="https://calm-meadow-0cca89a1e.6.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">Brian Riggle</a></li>
+        <li><a href="https://onedrive.live.com/" target="_blank" rel="noopener noreferrer">OneDrive</a></li>
+        <li><a href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">Copilot</a></li>
+        <li><a href="https://www.splashid.com/app/" target="_blank" rel="noopener noreferrer">SplashID</a></li>
+        <li><a href="https://www.etrade.wallst.com/Research/Stocks/StockScreener" target="_blank" rel="noopener noreferrer">E*TRADE Screener</a></li>
+        <li><a href="https://accountview.lpl.com/web/login" target="_blank" rel="noopener noreferrer">LPL Account View</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        <li><a href="https://www.icloud.com/" target="_blank" rel="noopener noreferrer">iCloud</a></li>
+        <li><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">Gmail</a></li>
+        <li><a href="https://github.com/kesslernity/awesome-microsoft-copilot-prompts" target="_blank" rel="noopener noreferrer">GitHub – Copilot Prompts</a></li>
+      </ul>
     </section>
 
-    <footer>
-        <p>© 2026 Brian Riggle</p>
+    <!-- FAVORITES BAR -->
+    <section id="favorites" class="card">
+      <h2>Favorites Bar</h2>
+      <ul class="link-list">
+        <li><a href="https://calm-meadow-0cca89a1e.6.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">Brian Riggle</a></li>
+        <li><a href="https://onedrive.live.com/" target="_blank" rel="noopener noreferrer">OneDrive</a></li>
+        <li><a href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">Copilot</a></li>
+        <li><a href="https://www.splashid.com/app/" target="_blank" rel="noopener noreferrer">SplashID</a></li>
+        <li><a href="https://www.etrade.wallst.com/Research/Stocks/StockScreener" target="_blank" rel="noopener noreferrer">E*TRADE Screener</a></li>
+        <li><a href="https://accountview.lpl.com/web/login" target="_blank" rel="noopener noreferrer">LPL Account View</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        <li><a href="https://www.icloud.com/" target="_blank" rel="noopener noreferrer">iCloud</a></li>
+        <li><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">Gmail</a></li>
+        <li><a href="https://github.com/kesslernity/awesome-microsoft-copilot-prompts" target="_blank" rel="noopener noreferrer">GitHub – Copilot Prompts</a></li>
+      </ul>
+    </section>
+
+    <!-- ASU -->
+    <section id="asu" class="card">
+      <h2>ASU</h2>
+      <ul class="link-list">
+        <li><a href="https://webapp4.asu.edu/myasu/" target="_blank" rel="noopener noreferrer">My ASU</a></li>
+        <li><a href="https://tutorials.lib.asu.edu/tutorials/rise/citing-your-sources/index.html#/" target="_blank" rel="noopener noreferrer">Citing Your Sources</a></li>
+        <li><a href="https://libguides.asu.edu/c.php?g=1311696&p=9700102" target="_blank" rel="noopener noreferrer">Citing Generative AI Models</a></li>
+        <li><a href="https://registrar.asu.edu/academic-calendar" target="_blank" rel="noopener noreferrer">Academic Calendar</a></li>
+      </ul>
+    </section>
+
+    <!-- AI -->
+    <section id="ai" class="card">
+      <h2>AI</h2>
+      <ul class="link-list">
+        <li><a href="https://make.theleap.co/manage/products" target="_blank" rel="noopener noreferrer">Make The Leap</a></li>
+        <li><a href="https://www.coursera.org/specializations/prompting-essentials-google" target="_blank" rel="noopener noreferrer">Google Prompting Essentials</a></li>
+        <li><a href="https://www.kaggle.com/code/cuecacuela/2025-the-ultimate-markdown-cheat-sheet" target="_blank" rel="noopener noreferrer">Markdown Cheat Sheet</a></li>
+        <li><a href="https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_the_basics.html" target="_blank" rel="noopener noreferrer">Purdue OWL – APA Basics</a></li>
+        <li><a href="https://www.mckinsey.com/user-registration/manage-account/edit-subscriptions" target="_blank" rel="noopener noreferrer">McKinsey Subscriptions</a></li>
+        <li><a href="https://consensus.app/" target="_blank" rel="noopener noreferrer">Consensus – AI for Research</a></li>
+      </ul>
+    </section>
+
+    <!-- TTS -->
+    <section id="tts" class="card">
+      <h2>TTS</h2>
+      <ul class="link-list">
+        <li><a href="https://elevenlabs.io/app/home" target="_blank" rel="noopener noreferrer">ElevenLabs</a></li>
+        <li><a href="https://typecast.ai/" target="_blank" rel="noopener noreferrer">Typecast</a></li>
+        <li><a href="https://app.synthesia.io/" target="_blank" rel="noopener noreferrer">Synthesia</a></li>
+        <li><a href="https://app.heygen.com/get-started" target="_blank" rel="noopener noreferrer">HeyGen</a></li>
+        <li><a href="https://creator.nightcafe.studio/" target="_blank" rel="noopener noreferrer">NightCafe</a></li>
+        <li><a href="https://murf.ai/studio/" target="_blank" rel="noopener noreferrer">Murf</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      © 2026 Brian M. Riggle • Personal Links Dashboard
     </footer>
+
+  </main>
+
+  <!-- JS -->
+  <script>
+    const sidebar = document.getElementById("sidebar");
+    const collapseBtn = document.getElementById("collapseBtn");
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    collapseBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("collapsed");
+    });
+
+    hamburgerBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("open");
+    });
+  </script>
+
 </body>
 </html>
