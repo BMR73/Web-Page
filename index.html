@@ -46,19 +46,26 @@
       </div>
 
       <div class="sidebar-social">
-        <a href="links.html"><i class="fa-solid fa-link"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
       </div>
+
+      <!-- ELEVENLABS WIDGET -->
+      <div class="sidebar-widget">
+        <elevenlabs-convai agent-id="agent_5801ky84t4nhffar8jb2vz3wn3e6"></elevenlabs-convai>
+      </div>
+      <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
     </div>
   </aside>
 
-  <!-- TOP NAV -->
+  <!-- TOP NAVIGATION BAR -->
   <header class="topnav">
     <div class="topnav-left">
       <button class="hamburger" id="hamburgerBtn">
         <i class="fa-solid fa-bars"></i>
       </button>
-      <span class="topnav-title">Brian Riggle</span>
+      <span class="topnav-title">AI Senior Leader</span>
     </div>
 
     <nav class="topnav-links">
@@ -71,13 +78,14 @@
     </nav>
   </header>
 
-  <!-- MOBILE MENU -->
+  <!-- MOBILE SLIDE-OUT MENU -->
   <div class="mobile-menu" id="mobileMenu">
     <div class="mobile-menu-content">
       <div class="mobile-profile">
         <img src="images/Headshot.jpg" alt="Brian Riggle headshot" />
         <div class="mobile-name">Brian Riggle</div>
         <div class="mobile-email">brianmriggle@hotmail.com</div>
+        <div class="mobile-phone">580‑747‑9270</div>
       </div>
 
       <a href="#about">About</a>
@@ -193,9 +201,7 @@
     <!-- RESUME DOWNLOAD -->
     <section class="card">
       <h2>Résumé</h2>
-      <p>
-        A print‑ready résumé is available for download.
-      </p>
+      <p>A print‑ready résumé is available for download.</p>
       <a href="Brian_Riggle_Resume.pdf" class="download-btn">
         <i class="fa-solid fa-file-pdf"></i> Download Résumé (PDF)
       </a>
@@ -207,7 +213,7 @@
 
   </main>
 
-  <!-- JS -->
+  <!-- JS FOR SIDEBAR + MOBILE MENU -->
   <script>
     const sidebar = document.getElementById("sidebar");
     const collapseBtn = document.getElementById("collapseBtn");
