@@ -104,15 +104,45 @@
   <!-- MAIN CONTENT -->
   <main class="main-content">
 
-    <!-- LOGO AT TOP OF MAIN PANEL -->
+    <!-- LOGO + CTA ROW -->
     <section class="card logo-card">
-      <div class="main-logo" style="display:flex; align-items:center; gap:20px;">
+      <div style="display:flex; align-items:center; gap:30px;">
+
+        <!-- LOGO REDUCED BY ~30% -->
         <img src="images/Logo 1 Cropped.png"
              alt="Adaptive Insights Solutions Logo"
-             style="width:50%; height:auto; border-radius:6px;" />
-        <div class="logo-side-content">
-          <!-- Placeholder for future content you want beside the logo -->
+             style="width:35%; height:auto; border-radius:6px;" />
+
+        <!-- CTA BLOCK -->
+        <div style="flex:1;">
+          <h2 style="margin-top:0;">Schedule a Strategy Call</h2>
+          <p>
+            Unlock clarity in your AI journey. Whether you're exploring responsible adoption,
+            building governance, or aligning AI with your business reality, a 30‑minute strategy
+            call will help you identify your next best move.
+          </p>
+
+          <ul>
+            <li>Where AI can create meaningful value</li>
+            <li>What risks need to be managed</li>
+            <li>How to align AI with leadership priorities</li>
+            <li>Practical steps you can take in the next 90 days</li>
+          </ul>
+
+          <button style="
+            background:#2e7d32;
+            color:white;
+            padding:12px 22px;
+            border:none;
+            border-radius:6px;
+            font-size:16px;
+            cursor:pointer;
+            margin-top:10px;
+          ">
+            📅 Schedule a Strategy Call
+          </button>
         </div>
+
       </div>
     </section>
 
@@ -201,49 +231,3 @@
     <!-- PUBLICATIONS -->
     <section id="publications" class="card">
       <h2>Thought Leadership</h2>
-      <p>
-        Forthcoming articles and insights on AI governance, leadership, organizational transformation,
-        and responsible adoption.
-      </p>
-    </section>
-
-    <!-- STRATEGY -->
-    <section id="strategy" class="card">
-      <h2>Engagement Model</h2>
-      <p>
-        We partner with organizations seeking clarity, alignment, and responsible AI integration. Our engagement
-        model emphasizes:
-      </p>
-      <ul>
-        <li>Discovery & Insight Mapping</li>
-        <li>Governance & Risk Alignment</li>
-        <li>AI Strategy Development</li>
-        <li>Leadership Enablement</li>
-        <li>Implementation Support & Change Navigation</li>
-      </ul>
-    </section>
-
-    <footer class="footer">
-      © 2026 Adaptive Insights Solutions • AI Strategy & Governance Consulting
-    </footer>
-
-  </main>
-
-  <!-- JS -->
-  <script>
-    const sidebar = document.getElementById("sidebar");
-    const collapseBtn = document.getElementById("collapseBtn");
-    const hamburgerBtn = document.getElementById("hamburgerBtn");
-    const mobileMenu = document.getElementById("mobileMenu");
-
-    collapseBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("collapsed");
-    });
-
-    hamburgerBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("open");
-    });
-  </script>
-
-</body>
-</html>
