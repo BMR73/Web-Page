@@ -67,14 +67,13 @@ body {
 }
 
 .sidebar-logo {
-    width: 100%;        /* Fill horizontally */
-    height: auto;       /* Adjust height naturally */
+    width: 100%;
+    height: auto;
     object-fit: contain;
     border-radius: 0;
     border: none;
 }
 
-/* Collapsed sidebar behavior */
 .sidebar.collapsed .sidebar-logo-container {
     padding: 4px 0;
 }
@@ -109,21 +108,6 @@ body {
     line-height: 1.6;
 }
 
-.sidebar-section-label {
-    margin-top: 20px;
-    font-size: 13px;
-    text-transform: uppercase;
-    opacity: 0.7;
-}
-
-.sidebar-competencies {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    font-size: 13px;
-}
-
 /* ---------------------------------------------------------
    SOCIAL ICONS
 --------------------------------------------------------- */
@@ -144,7 +128,7 @@ body {
     color: #4cc9f0;
 }
 
-/* COLLAPSED SIDEBAR BEHAVIOR */
+/* Hide sidebar content when collapsed */
 .sidebar.collapsed .sidebar-content > *:not(.sidebar-logo-container) {
     display: none;
 }
@@ -204,7 +188,7 @@ body {
 }
 
 /* ---------------------------------------------------------
-   MOBILE SLIDE-OUT MENU
+   MOBILE MENU
 --------------------------------------------------------- */
 .mobile-menu {
     position: fixed;
@@ -275,37 +259,21 @@ body {
 }
 
 /* ---------------------------------------------------------
-   TIMELINE
+   BLUE-LINE LIST (used in main content only)
 --------------------------------------------------------- */
-.timeline {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+.blue-line-list {
+    border-left: 4px solid #1e88e5;
+    padding-left: 20px;
+    list-style: none;
+    margin-top: 10px;
 }
 
-.timeline-item {
-    border-left: 4px solid #4cc9f0;
-    padding-left: 15px;
-}
-
-.timeline-date {
-    font-size: 13px;
-    opacity: 0.7;
-}
-
-.timeline-role {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.timeline-company {
-    font-size: 14px;
-    opacity: 0.8;
-    margin-bottom: 8px;
+.blue-line-list li {
+    margin-bottom: 10px;
 }
 
 /* ---------------------------------------------------------
-   CTA CARD (RESTORED)
+   CTA CARD (bullets only)
 --------------------------------------------------------- */
 .sidebar-cta-card {
     background: #0a2a43;
