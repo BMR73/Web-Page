@@ -9,6 +9,20 @@
   <link rel="stylesheet" href="Styles.css" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* Blue Line List Style */
+    .blue-line-list {
+      border-left: 4px solid #1e88e5;
+      padding-left: 20px;
+      list-style: none;
+      margin-top: 10px;
+    }
+    .blue-line-list li {
+      margin-bottom: 10px;
+      padding-left: 5px;
+    }
+  </style>
 </head>
 
 <body>
@@ -112,66 +126,50 @@
   <!-- MAIN CONTENT -->
   <main class="main-content">
 
-    <!-- LOGO + CTA ROW -->
+    <!-- LOGO + CTA -->
     <section class="card logo-card">
       <div style="display:flex; align-items:flex-start; gap:30px;">
 
-        <!-- LOGO -->
         <img src="images/Logo 1 Cropped.png"
              alt="Adaptive Insights Solutions Logo"
              style="width:35%; height:auto; border-radius:6px;" />
 
-        <!-- CTA BLOCK (EMAIL) -->
-       <section class="card logo-card">
+        <div>
+          <h2>Schedule a Strategy Call:</h2>
+          <span>A focused 30‑minute conversation to identify your next best move in your AI journey.</span>
 
-  <h2 style="display:inline;">Schedule a Strategy Call:</h2>
-  <span>
-    A focused 30‑minute conversation to identify your next best move in your AI journey.
-  </span>
+          <ul class="blue-line-list">
+            <li>Where AI can create meaningful value</li>
+            <li>What risks need attention</li>
+            <li>How to align AI with leadership priorities</li>
+            <li>Practical next steps for the next 90 days</li>
+          </ul>
 
-  <ul style="margin-top:10px;">
-    <li>Where AI can create meaningful value</li>
-    <li>What risks need attention</li>
-    <li>How to align AI with leadership priorities</li>
-    <li>Practical next steps for the next 90 days</li>
-  </ul>
+          <a href="mailto:riggleinsights@outlook.com"
+             style="background:#2e7d32; color:white; padding:10px 18px; border-radius:6px;
+                    font-size:15px; text-decoration:none; display:inline-block; margin-top:10px;">
+            📅 Send an Email to Schedule a Strategy Call
+          </a>
+        </div>
 
-  <a href="mailto:riggleinsights@outlook.com"
-     style="
-       background:#2e7d32;
-       color:white;
-       padding:10px 18px;
-       border:none;
-       border-radius:6px;
-       font-size:15px;
-       cursor:pointer;
-       text-decoration:none;
-       display:inline-block;
-       margin-top:10px;
-     ">
-    📅 Send an Email to Schedule a Strategy Call
-  </a>
-
-</section>
-
+      </div>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="card">
-  <h2 style="display:inline;">About Adaptive Insights Solutions:</h2>&nbsp;&nbsp;
-  <span>
-    Adaptive Insights Solutions helps organizations navigate the complexity of AI adoption with clarity,
-    responsibility, and strategic alignment. We specialize in bridging leadership intent, operational reality,
-    and emerging technology — ensuring AI enhances your business rather than disrupts it. Our philosophy is
-    simple: <strong>Adapting intelligence to your business reality.</strong> We tailor AI‑enabled insights,
-    governance frameworks, and transformation strategies to fit your unique environment, culture, and goals.
-  </span>
-</section>
+      <h2>About Adaptive Insights Solutions:</h2>
+      <span>
+        Adaptive Insights Solutions helps organizations navigate the complexity of AI adoption with clarity,
+        responsibility, and strategic alignment. We specialize in bridging leadership intent, operational reality,
+        and emerging technology — ensuring AI enhances your business rather than disrupts it. Our philosophy is
+        simple: <strong>Adapting intelligence to your business reality.</strong>
+      </span>
+    </section>
 
     <!-- SERVICES -->
     <section id="services" class="card">
       <h2>Consulting Services</h2>
-      <ul>
+      <ul class="blue-line-list">
         <li>AI Governance & Responsible Adoption</li>
         <li>Enterprise AI Strategy & Roadmapping</li>
         <li>Organizational Transformation & Change Leadership</li>
@@ -182,19 +180,16 @@
 
     <!-- APPROACH -->
     <section id="approach" class="card">
-  <h2 style="display:inline;">Our Approach:</h2>&nbsp;&nbsp;
-  <span>
-    We combine adaptive thinking, human‑centered design, and AI‑powered insight to guide organizations through
-    intelligent transformation. Our approach emphasizes:
-  </span>
-  <ul>
-    <li>Flexible thinking meets AI‑powered strategy</li>
-    <li>Turning insights into action</li>
-    <li>Practical intelligence for real‑world results</li>
-    <li>Transforming complexity into clarity</li>
-    <li>Empowering leaders through adaptive intelligence</li>
-  </ul>
-</section>
+      <h2>Our Approach:</h2>
+      <span>We combine adaptive thinking, human‑centered design, and AI‑powered insight to guide organizations through intelligent transformation.</span>
+      <ul class="blue-line-list">
+        <li>Flexible thinking meets AI‑powered strategy</li>
+        <li>Turning insights into action</li>
+        <li>Practical intelligence for real‑world results</li>
+        <li>Transforming complexity into clarity</li>
+        <li>Empowering leaders through adaptive intelligence</li>
+      </ul>
+    </section>
 
     <!-- EXPERIENCE -->
     <section id="experience" class="card">
@@ -202,114 +197,73 @@
 
       <div class="timeline">
 
-        <!-- 2014–2024 -->
         <div class="timeline-item">
           <div class="timeline-date">2014 – 2024</div>
           <div class="timeline-role">Program Director & Senior Instructor</div>
           <div class="timeline-company">Bethel School District & Franklin Pierce Schools</div>
-          <p><strong>Program Modernization</strong> — Integrated LMS platforms, digital learning tools, and data‑driven
-            evaluation methods to modernize instruction and improve learning outcomes.</p>
-          <p><strong>Large‑Scale Leadership Development</strong> — Mentored and coached 800+ cadets annually, enabling
-            thousands of hours of community leadership projects and sustained Distinguished Unit with Merit ratings.</p>
-          <p><strong>Operational & Policy Alignment</strong> — Executed federal, state, and district budgets while
-            ensuring compliance with OSPI and Air Force policy across multi‑school programs.</p>
-          <p><strong>Cross‑School Collaboration</strong> — Coordinated multi‑school drill, leadership, and STEM events
-            across two states, strengthening inter‑school collaboration and operational consistency.</p>
+          <p><strong>Program Modernization</strong> — Integrated LMS platforms, digital learning tools, and data‑driven evaluation methods.</p>
+          <p><strong>Leadership Development</strong> — Mentored 800+ cadets annually.</p>
+          <p><strong>Operational Alignment</strong> — Managed budgets and compliance.</p>
+          <p><strong>Cross‑School Collaboration</strong> — Coordinated multi‑state STEM and leadership events.</p>
         </div>
 
-        <!-- 2009–2014 -->
         <div class="timeline-item">
           <div class="timeline-date">2009 – 2014</div>
-          <div class="timeline-role">
-            Assistant Director of Operations / C‑17 Aircraft Commander / Chief Air Mobility Control Team /
-            Lead Joint Base Liaison Officer
-          </div>
+          <div class="timeline-role">Assistant Director of Operations / C‑17 Aircraft Commander</div>
           <div class="timeline-company">United States Air Force</div>
-          <p><strong>Data‑Driven Operations</strong> — Directed analysis of aircraft utilization, mission timing,
-            and maintenance trends, achieving 6‑month low cancellation rates and 4‑year high timeliness rates.</p>
-          <p><strong>High‑Reliability Workflow Management</strong> — Oversaw airfield operations, mobility scheduling,
-            and crisis management for 200+ personnel with zero safety incidents.</p>
-          <p><strong>Multi‑Agency Policy Integration</strong> — Led Air Force policy development and negotiated
-            agreements across 27 government agencies, improving service delivery for 150,000+ personnel.</p>
-          <p><strong>Strategic Resource Optimization</strong> — Managed allocation of $100M+ flying hours supporting
-            3,000 missions, 130,000 passengers, and 62,000 tons of cargo across multiple theaters.</p>
+          <p><strong>Data‑Driven Operations</strong> — Achieved 6‑month low cancellation rates.</p>
+          <p><strong>Workflow Management</strong> — Oversaw operations for 200+ personnel.</p>
+          <p><strong>Policy Integration</strong> — Negotiated agreements across 27 agencies.</p>
+          <p><strong>Resource Optimization</strong> — Managed $100M+ flying hours.</p>
         </div>
 
-        <!-- 2000–2009 -->
         <div class="timeline-item">
           <div class="timeline-date">2000 – 2009</div>
-          <div class="timeline-role">
-            Flight Commander T‑1 Instructor Pilot / Chief Standardization & Evaluation / C‑5 Aircraft Commander
-          </div>
+          <div class="timeline-role">T‑1 Instructor Pilot / C‑5 Aircraft Commander</div>
           <div class="timeline-company">United States Air Force</div>
-          <p><strong>Training Systems Optimization</strong> — Led advanced flight training programs, graduating 250+
-            pilots annually while standardizing evaluation procedures and improving graduation rates by 12%.</p>
-          <p><strong>Workflow & Scheduling Analytics</strong> — Implemented scheduling and analytics models supporting
-            a $1M+ / 2,000‑hour training program, reducing man‑hours by 15%.</p>
-          <p><strong>International Training Modernization</strong> — Developed Iraqi Air Force training programs,
-            supervising 16,000+ training events and 400+ monthly combat sorties.</p>
-          <p><strong>Operational Excellence</strong> — Directed 5,000+ training events and 25,000 flight hours with
-            zero safety violations, ensuring consistent high‑reliability performance.</p>
+          <p><strong>Training Systems Optimization</strong> — Graduated 250+ pilots annually.</p>
+          <p><strong>Scheduling Analytics</strong> — Reduced man‑hours by 15%.</p>
+          <p><strong>International Training</strong> — Supervised 16,000+ training events.</p>
+          <p><strong>Operational Excellence</strong> — Directed 25,000 flight hours with zero safety violations.</p>
         </div>
 
       </div>
     </section>
 
-    <!-- EDUCATION / CREDENTIALS -->
+    <!-- EDUCATION -->
     <section id="education" class="card">
       <h2>Education and Certifications</h2>
-      <ul>
-        <li><strong>W.P. Carrey School of Business, ASU, M.S. Artificial Intelligence in Business</strong> (Graduate Dec 26)</li>
-        <li>Embry‑Riddle Aeronautical University – M.S. Management</li>
-        <li>Community College of the Air Force – Avionics Systems Technology</li>
+
+      <ul class="blue-line-list">
+        <li><strong>W.P. Carey School of Business, ASU</strong> — M.S. Artificial Intelligence in Business (Graduate Dec 26)</li>
+        <li>Embry‑Riddle Aeronautical University — M.S. Management</li>
+        <li>Community College of the Air Force — Avionics Systems Technology</li>
       </ul>
 
       <h3>Oregon State University Certification</h3>
-      <ul>
-        <li>
-          <strong>Instructional Design (2025)</strong><br />
-          Oregon State University’s E‑Learning Instructional Design & Development 
-          certification, gaining advanced skills in designing, developing, and
-          evaluating modern digital learning experiences. Strengthening
-          my ability to build scalable, learner‑centered instructional systems
-          using contemporary e‑learning tools, assessment methods, and design frameworks.
-        </li>
-        <li>
+      <ul class="blue-line-list">
+        <li><strong>Instructional Design (2025)</strong> — Advanced skills in designing and evaluating digital learning experiences.</li>
+      </ul>
+
       <h3>Microsoft Certifications</h3>
-      <ul>
-        <li>
-          <strong>Microsoft Certified: AI Transformation Leader (2026)</strong><br />
-          This certification demonstrates advanced capability in guiding organizations through responsible,
-          high‑impact AI adoption. It strengthens your ability to help clients align AI initiatives with governance,
-          risk, and operational realities.
-        </li>
-        <li>
-          <strong>Microsoft Certified: AI Business Professional (2026)</strong><br />
-          This certification validates your skill in translating business problems into AI‑enabled solutions. It
-          enhances your ability to help clients identify value opportunities, assess data readiness, and implement
-          practical AI strategies.
-        </li>
+      <ul class="blue-line-list">
+        <li><strong>AI Transformation Leader (2026)</strong> — Guides organizations through responsible AI adoption.</li>
+        <li><strong>AI Business Professional (2026)</strong> — Translates business problems into AI‑enabled solutions.</li>
       </ul>
     </section>
 
     <!-- PUBLICATIONS -->
     <section id="publications" class="card">
-  <h2 style="display:inline;">Thought Leadership:</h2>&nbsp;&nbsp;
-  <span>
-    Forthcoming articles and insights on AI governance, leadership, organizational transformation,
-    and responsible adoption.
-  </span>
-</section>
-
+      <h2>Thought Leadership:</h2>
+      <span>Forthcoming articles and insights on AI governance, leadership, organizational transformation, and responsible adoption.</span>
+    </section>
 
     <!-- STRATEGY -->
     <section id="strategy" class="card">
-      <h2 style="display:inline;">Engagement Model:</h2>&nbsp;&nbsp;
-<span>
-  We partner with organizations seeking clarity, alignment, and responsible AI integration. Our engagement model emphasizes:
-</span>
-      </p>
-      <ul>
+      <h2>Engagement Model:</h2>
+      <span>We partner with organizations seeking clarity, alignment, and responsible AI integration.</span>
+
+      <ul class="blue-line-list">
         <li>Discovery & Insight Mapping</li>
         <li>Governance & Risk Alignment</li>
         <li>AI Strategy Development</li>
