@@ -53,22 +53,22 @@ body {
 }
 
 /* ---------------------------------------------------------
-   RECTANGULAR LOGO CONTAINER
+   RECTANGULAR LOGO CONTAINER (HORIZONTAL FIT)
 --------------------------------------------------------- */
 .sidebar-logo-container {
     width: 96%;
-    height: 120px;
     background-color: #0d1b2a;
     margin: 0 auto;
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px 0;
 }
 
 .sidebar-logo {
-    height: 100%;
-    width: auto;
+    width: 100%;        /* Fill horizontally */
+    height: auto;       /* Adjust height naturally */
     object-fit: contain;
     border-radius: 0;
     border: none;
@@ -76,11 +76,11 @@ body {
 
 /* Collapsed sidebar behavior */
 .sidebar.collapsed .sidebar-logo-container {
-    height: 60px;
+    padding: 4px 0;
 }
 
 .sidebar.collapsed .sidebar-logo {
-    height: 50%;
+    width: 80%;
 }
 
 /* ---------------------------------------------------------
