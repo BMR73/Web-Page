@@ -9,62 +9,6 @@
   <link rel="stylesheet" href="Styles.css" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <style>
-    /* Blue Line List Style */
-    .blue-line-list {
-      border-left: 4px solid #1e88e5;
-      padding-left: 20px;
-      list-style: none;
-      margin-top: 10px;
-    }
-    .blue-line-list li {
-      margin-bottom: 10px;
-      padding-left: 5px;
-    }
-
-    /* Sidebar Logo — Fixed Rectangle */
-    .sidebar-logo {
-      width: 96%;
-      height: 120px;              /* Fixed rectangle height */
-      object-fit: cover;          /* Ensures clean rectangular crop */
-      margin: 0 auto;
-      border-radius: 6px;
-      display: block;
-    }
-
-    /* Sidebar CTA */
-    .sidebar-cta {
-      margin-top: 25px;
-      padding: 15px;
-      background: #0a2a43;
-      border-radius: 6px;
-      color: white;
-      font-size: 14px;
-      line-height: 1.4;
-    }
-    .sidebar-cta h3 {
-      margin-top: 0;
-      font-size: 16px;
-      color: #4fc3f7;
-    }
-    .sidebar-cta ul {
-      margin-top: 10px;
-      list-style: disc;
-      padding-left: 20px;   /* Left-justify bullets */
-      text-align: left;
-    }
-    .sidebar-cta a {
-      background: #2e7d32;
-      color: white;
-      padding: 8px 14px;
-      border-radius: 6px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 10px;
-      font-size: 14px;
-    }
-  </style>
 </head>
 
 <body>
@@ -79,8 +23,8 @@
 
     <div class="sidebar-content">
 
-      <!-- LOGO (rectangular) -->
-      <div class="profile-photo">
+      <!-- RECTANGULAR LOGO CONTAINER -->
+      <div class="profile-photo sidebar-logo-container">
         <img src="images/Logo 1 Cropped.png"
              alt="Adaptive Insights Solutions Logo"
              class="sidebar-logo" />
@@ -96,7 +40,7 @@
         <div><i class="fa-solid fa-phone"></i> 580‑747‑9270</div>
       </div>
 
-      <!-- ICON-ONLY LINKS (directly under phone number) -->
+      <!-- SOCIAL ICONS -->
       <div class="sidebar-social">
         <a href="https://www.linkedin.com/in/brianmriggle" title="LinkedIn" target="_blank">
           <i class="fa-brands fa-linkedin-in"></i>
@@ -115,7 +59,7 @@
       </div>
       <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 
-      <!-- CTA MOVED TO SIDEBAR -->
+      <!-- CTA SECTION -->
       <div class="sidebar-cta">
         <h3>Schedule a Strategy Call</h3>
         <span>A focused 30‑minute conversation to identify your next best move in your AI journey.</span>
