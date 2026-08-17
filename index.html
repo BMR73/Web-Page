@@ -23,9 +23,11 @@
       padding-left: 5px;
     }
 
-    /* Sidebar Logo */
+    /* Sidebar Logo — Fixed Rectangle */
     .sidebar-logo {
       width: 96%;
+      height: 120px;              /* Fixed rectangle height */
+      object-fit: cover;          /* Ensures clean rectangular crop */
       margin: 0 auto;
       border-radius: 6px;
       display: block;
@@ -49,7 +51,8 @@
     .sidebar-cta ul {
       margin-top: 10px;
       list-style: disc;
-      padding-left: 20px;
+      padding-left: 20px;   /* Left-justify bullets */
+      text-align: left;
     }
     .sidebar-cta a {
       background: #2e7d32;
@@ -76,7 +79,7 @@
 
     <div class="sidebar-content">
 
-      <!-- LOGO (replaces headshot) -->
+      <!-- LOGO (rectangular) -->
       <div class="profile-photo">
         <img src="images/Logo 1 Cropped.png"
              alt="Adaptive Insights Solutions Logo"
@@ -93,7 +96,7 @@
         <div><i class="fa-solid fa-phone"></i> 580‑747‑9270</div>
       </div>
 
-      <!-- ICON-ONLY LINKS (moved up) -->
+      <!-- ICON-ONLY LINKS (directly under phone number) -->
       <div class="sidebar-social">
         <a href="https://www.linkedin.com/in/brianmriggle" title="LinkedIn" target="_blank">
           <i class="fa-brands fa-linkedin-in"></i>
