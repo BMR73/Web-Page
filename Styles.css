@@ -53,12 +53,12 @@ body {
 }
 
 /* ---------------------------------------------------------
-   RECTANGULAR LOGO FIX
+   RECTANGULAR LOGO CONTAINER
 --------------------------------------------------------- */
 .sidebar-logo-container {
     width: 96%;
-    height: 120px;              /* Rectangle height */
-    background-color: #0d1b2a;  /* Sidebar dark blue */
+    height: 120px;
+    background-color: #0d1b2a;
     margin: 0 auto;
     border-radius: 6px;
     display: flex;
@@ -67,10 +67,10 @@ body {
 }
 
 .sidebar-logo {
-    height: 90%;        /* Keeps circle proportional */
+    height: 100%;
     width: auto;
     object-fit: contain;
-    border-radius: 0;   /* Removes circular cropping */
+    border-radius: 0;
     border: none;
 }
 
@@ -274,10 +274,6 @@ body {
     color: #415a77;
 }
 
-.logo-card {
-    padding: 15px !important;
-}
-
 /* ---------------------------------------------------------
    TIMELINE
 --------------------------------------------------------- */
@@ -309,12 +305,36 @@ body {
 }
 
 /* ---------------------------------------------------------
-   CTA FIX — LEFT-JUSTIFIED BULLETS
+   CTA CARD (RESTORED)
 --------------------------------------------------------- */
-.sidebar-cta ul {
+.sidebar-cta-card {
+    background: #0a2a43;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.sidebar-cta-card h3 {
+    color: #4fc3f7;
+    margin-bottom: 10px;
+}
+
+.sidebar-cta-card ul {
     list-style: disc;
     padding-left: 20px;
-    text-align: left;
+    margin-top: 10px;
+}
+
+.sidebar-cta-card a {
+    background: #2e7d32;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 /* ---------------------------------------------------------
