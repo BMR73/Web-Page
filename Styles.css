@@ -52,19 +52,40 @@ body {
     text-align: center;
 }
 
-.profile-photo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #1b263b;
+/* ---------------------------------------------------------
+   RECTANGULAR LOGO FIX
+--------------------------------------------------------- */
+.sidebar-logo-container {
+    width: 96%;
+    height: 120px;              /* Rectangle height */
+    background-color: #0d1b2a;  /* Sidebar dark blue */
+    margin: 0 auto;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.sidebar.collapsed .profile-photo img {
-    width: 50px;
-    height: 50px;
+.sidebar-logo {
+    height: 90%;        /* Keeps circle proportional */
+    width: auto;
+    object-fit: contain;
+    border-radius: 0;   /* Removes circular cropping */
+    border: none;
 }
 
+/* Collapsed sidebar behavior */
+.sidebar.collapsed .sidebar-logo-container {
+    height: 60px;
+}
+
+.sidebar.collapsed .sidebar-logo {
+    height: 50%;
+}
+
+/* ---------------------------------------------------------
+   SIDEBAR TEXT SECTIONS
+--------------------------------------------------------- */
 .sidebar-title {
     font-size: 18px;
     font-weight: bold;
@@ -103,6 +124,9 @@ body {
     font-size: 13px;
 }
 
+/* ---------------------------------------------------------
+   SOCIAL ICONS
+--------------------------------------------------------- */
 .sidebar-social {
     margin-top: 20px;
     display: flex;
@@ -121,7 +145,7 @@ body {
 }
 
 /* COLLAPSED SIDEBAR BEHAVIOR */
-.sidebar.collapsed .sidebar-content > *:not(.profile-photo) {
+.sidebar.collapsed .sidebar-content > *:not(.sidebar-logo-container) {
     display: none;
 }
 
@@ -254,24 +278,6 @@ body {
     padding: 15px !important;
 }
 
-
-/* ---------------------------------------------------------
-   BADGES
---------------------------------------------------------- */
-.badge-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.badge {
-    background: #e0e7ff;
-    color: #1e3a8a;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 13px;
-}
-
 /* ---------------------------------------------------------
    TIMELINE
 --------------------------------------------------------- */
@@ -303,20 +309,12 @@ body {
 }
 
 /* ---------------------------------------------------------
-   ICON ROW
+   CTA FIX — LEFT-JUSTIFIED BULLETS
 --------------------------------------------------------- */
-.icon-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 10px;
-}
-
-.icon-row span {
-    background: #edf2f4;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 14px;
+.sidebar-cta ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
 }
 
 /* ---------------------------------------------------------
